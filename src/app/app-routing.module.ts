@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'lazy-load',
+    loadChildren: './lazy-load/lazy-load.module#LazyLoadModule'
   }
 ];
 
