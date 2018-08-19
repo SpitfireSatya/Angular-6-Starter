@@ -59,8 +59,10 @@ Report location: `reports/coverage` or `reports/jest`
 Run `npm run compliance` to execute all quality reports and create a dashboard.  
 Report Location: `reports/compliance`  
   
-
-
+## Lazy Loading
+The stater contains a sample lazy loaded module with a component showing the compliance script in action.  
+Run `npm run start`, navigate to `http://localhost:4200` and click on Lazy loaded in navbar to see it in action.
+  
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
