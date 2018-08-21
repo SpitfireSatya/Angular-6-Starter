@@ -98,10 +98,10 @@
       template = template.replace('@statementCoverageCovered', data.test.statistics.coverage.statements.covered);
       template = template.replace('@statementCoverageSkipped', data.test.statistics.coverage.statements.skipped);
 
-      template = template.replace('@lineCoverage', data.test.statistics.coverage.lines.percentage);
-      template = template.replace('@branchCoverage', data.test.statistics.coverage.branches.percentage);
-      template = template.replace('@functionCoverage', data.test.statistics.coverage.functions.percentage);
-      template = template.replace('@statementCoverage', data.test.statistics.coverage.statements.percentage);
+      template = template.replace('@lineCoverage', data.test.statistics.coverage.lines.percentage || 0.1);
+      template = template.replace('@branchCoverage', data.test.statistics.coverage.branches.percentage || 0.1);
+      template = template.replace('@functionCoverage', data.test.statistics.coverage.functions.percentage || 0.1);
+      template = template.replace('@statementCoverage', data.test.statistics.coverage.statements.percentage || 0.1);
   
   
       template = template.replace(/\"contentFormatter\":\"/g, '"contentFormatter": ');

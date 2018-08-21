@@ -60,7 +60,7 @@
             type: "line",
             color: 'darkOrchid',
             name: 'line coverage',
-            dataPoints: [{ y: 0 }],
+            dataPoints: [{ y: 100 }],
           },
           {
             type: "line",
@@ -94,7 +94,7 @@
             type: "line",
             color: 'darkOrchid',
             name: 'branch coverage',
-            dataPoints: [{ y: 0 }],
+            dataPoints: [{ y: 100 }],
           },
           {
             type: "line",
@@ -128,7 +128,7 @@
             type: "line",
             color: 'darkOrchid',
             name: 'function coverage',
-            dataPoints: [{ y: 0 }],
+            dataPoints: [{ y: 100 }],
           },
           {
             type: "line",
@@ -162,7 +162,7 @@
             type: "line",
             color: 'darkOrchid',
             name: 'statement coverage',
-            dataPoints: [{ y: 0 }],
+            dataPoints: [{ y: 100 }],
           },
           {
             type: "line",
@@ -265,7 +265,7 @@
           type: "line",
           color: 'darkOrchid',
           name: 'build size (mb)',
-          dataPoints: [{ y: 0 }],
+          dataPoints: [{ y: 1 }],
         },
         {
           type: "line",

@@ -24,10 +24,7 @@
         y:
           complianceHistory.lint.data[1].dataPoints[
             complianceHistory.lint.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
     } else {
       complianceHistory.lint.data[0].dataPoints.push({
@@ -54,10 +51,7 @@
         y:
           complianceHistory.test.lines.data[1].dataPoints[
             complianceHistory.test.lines.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
 
       complianceHistory.test.branches.data[0].dataPoints.push({
@@ -73,10 +67,7 @@
         y:
           complianceHistory.test.branches.data[1].dataPoints[
             complianceHistory.test.branches.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
 
       complianceHistory.test.statements.data[0].dataPoints.push({
@@ -92,10 +83,7 @@
         y:
           complianceHistory.test.statements.data[1].dataPoints[
             complianceHistory.test.statements.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
 
       complianceHistory.test.functions.data[0].dataPoints.push({
@@ -111,10 +99,7 @@
         y:
           complianceHistory.test.functions.data[1].dataPoints[
             complianceHistory.test.functions.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
     } else {
       complianceHistory.test.lines.data[0].dataPoints.push({
@@ -162,10 +147,7 @@
         y:
           complianceHistory.jscpd.data[1].dataPoints[
             complianceHistory.jscpd.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
     } else {
       complianceHistory.jscpd.data[0].dataPoints.push({
@@ -192,10 +174,7 @@
         y:
           complianceHistory.accessibility.data[1].dataPoints[
             complianceHistory.accessibility.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
     } else {
       complianceHistory.accessibility.data[0].dataPoints.push({
@@ -222,10 +201,7 @@
         y:
           complianceHistory.build.data[1].dataPoints[
             complianceHistory.build.data[1].dataPoints.length - 1
-          ].y,
-        indexLabel: "Failed",
-        markerColor: "red",
-        markerType: "cross"
+          ].y
       });
     } else {
       complianceHistory.build.data[0].dataPoints.push({

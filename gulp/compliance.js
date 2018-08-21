@@ -22,7 +22,7 @@
     } else if (complianceDetails[key].status === 'Fail') {
       message += clc.redBright(complianceDetails[key].status) + ' \t\t ' + clc.redBright(complianceDetails[key].comments);
     } else {
-      message += clc.yellowBright(complianceDetails[key].status) + ' \t\t ' + clc.yellowBright(complianceDetails[key].comments);
+      message += clc.yellowBright(complianceDetails[key].status) + ' \t ' + clc.yellowBright(complianceDetails[key].comments);
     }
     console.info(message);
   }
