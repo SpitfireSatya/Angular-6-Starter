@@ -65,6 +65,8 @@
           child.on('exit', () => {
             executionDetails[key].end = new Date();
             executionDetails[key].total = (executionDetails[key].end.getTime() - executionDetails[key].start.getTime()) / 1000;
+            executionDetails[key].end = executionDetails[key].end.toLocaleString();
+            executionDetails[key].start = executionDetails[key].start.toLocaleString();
             cb();
           });
 
@@ -75,8 +77,8 @@
     let startTime = new Date();
     async.parallelLimit(asyncArray, 5, () => {
       let endTime = new Date();
-      console.info(clc.magentaBright('\nReports task started at: '), clc.cyanBright(startTime));
-      console.info(clc.magentaBright('Reports task ended at: '), clc.cyanBright(endTime));
+      console.info(clc.magentaBright('\nReports task started at: '), clc.cyanBright(startTime.toLocaleString()));
+      console.info(clc.magentaBright('Reports task ended at: '), clc.cyanBright(endTime.toLocaleString()));
       console.info(clc.magentaBright('Total time taken for all tasks: '), clc.cyanBright((endTime.getTime() - startTime.getTime()) / 1000));
       console.info('\n');
       done();
